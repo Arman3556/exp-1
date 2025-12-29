@@ -17,13 +17,13 @@
 
         @keyframes extendBox {
             0% {
-            width: 200px;
-            height: 300px;
+            width: 150px;
+            height: 200px;
             }
             100% {
-            width: 300px;
-            height: 500px;
-            background-color: darkred;
+            width: 200px;
+            height: 450px;
+            background-color: rgb(201, 14, 14);
             }
         }
             
@@ -33,6 +33,9 @@
         .hero-section{
             margin-bottom: 80px;
             text-align: center;
+        }
+        .boxes{
+            padding: 0;
         }
 
         .box-container{
@@ -46,11 +49,11 @@
         .box-1, .box-2, .box-3{
             display: flex;
             border: 10px solid black;
-            background-color: darkred;
+            background-color: rgb(160, 2, 2);
             color: aliceblue;
             position: relative;
-            height: 200px;
-            width: 150px;
+            height: 150px;
+            width: 100px;
             padding: 5px;
             justify-items: center;
             align-items: center;
@@ -60,12 +63,11 @@
         }
 
         .box-2{
+            flex: wrap;
             border-radius: 20px;
-            height: 300px;
+            height: 200px;
             animation: extendBox 2s infinite alternate;
             font-size: 2rem;
-            background-color: darkred;
-
         }
 
         .box-1, .box-3{
@@ -83,7 +85,7 @@
 
         @media screen and (max-width: 576px) {
             .box-container{
-                margin: auto;
+                margin: 0 auto;
             }            
         }
 
@@ -97,12 +99,17 @@
     <p class="pacifico-regular subtitle"> Pardon me, can't help it you know...</p>
     <p class="pacifico-regular subtitle"> Ai Labiuu shoo muchhh <span class="shuna">Shunamonii</span></p>
     </div>
-    <ul>
+    <ul class="boxes">
         <div class="box-container">
     <div class="box-1">Left-pearl</div>
-    <div class="box-2">My Shy Little Dragon</div>
-    <div class="box-3">Right-pearl</div>
-        </div>
+    <div class="box-2">My Shy Little Dragon</div>          
+    <div class="box-3">Right-pearl</div>   
+    </div>
     </ul>  
+
+
+
+
+
 </body>
 </html>
