@@ -7,97 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
-    <style>
-        .pacifico-regular {
-            font-family: "Pacifico", cursive;
-            font-weight: 400;
-            font-style: normal;
-        }  
-
-        @keyframes extendBox {
-            0% {
-            width: 150px;
-            height: 200px;
-            }
-            100% {
-            width: 200px;
-            height: 450px;
-            background-color: rgb(201, 14, 14);
-            }
-        }
-            
-        body{
-            background-color: antiquewhite;          
-        }
-        .hero-section{
-            margin-bottom: 80px;
-            text-align: center;
-        }
-        .boxes{
-            padding: 0;
-        }
-
-        .box-container{
-            display: flex;
-            width: 100%;
-            height: 100%;
-            flex-direction: row-reverse;
-            justify-content: center;                          
-        }
-
-        .box-1, .box-2, .box-3{
-            display: flex;
-            border: 10px solid black;
-            background-color: rgb(160, 2, 2);
-            color: aliceblue;
-            position: relative;
-            height: 150px;
-            width: 100px;
-            padding: 5px;
-            justify-items: center;
-            align-items: center;
-            text-align: center;
-            position: relative;
-
-        }
-
-        .box-2{
-            flex: wrap;
-            border-radius: 20px;
-            height: 200px;
-            animation: extendBox 2s infinite alternate;
-            font-size: 2rem;
-        }
-
-        .box-1, .box-3{
-            border-radius: 85%;   
-            justify-content: center;  
-            justify-items: center;
-            align-items: center;
-            text-align: center;
-            position: relative; 
-        }
-        .shuna{
-            color: crimson;
-            font-size: 1.5rem;
-        }
-
-        @media screen and (max-width: 576px) {
-            .box-container{
-                margin: 0 auto;
-            }            
-        }
-
-    </style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
+
 <body>
-    <div class="hero-section">
-    <h1 class="page-heading pacifico-regular ">Sweetheart, This is what happens when You are in front of me 
-    </h1>
+    <header>
+        <h1 class="sofia-regular welcome">Welcome, My Dearest</h1>
+        <p class="welcome-sub sofia-regular">I love you, You set my soul on fire. Its not a spark. Its a flame. A big red flame...</p>
+
+    </header>
+
+<main>
+    <div class="hero-section">   
+    <p class="pacifico-regular subtitle"> Ai Labiuu shoo muchhh <br> <span class="amar">Amar</span> <span class="shuna">Shunamonii</span></p>
+    <h3 class="page-heading pacifico-regular ">Sweetheart, This is what happens when You are in front of me 
+    </h3>
     <p class="pacifico-regular subtitle"> Pardon me, can't help it you know...</p>
-    <p class="pacifico-regular subtitle"> Ai Labiuu shoo muchhh <span class="shuna">Shunamonii</span></p>
+    
     </div>
     <ul class="boxes">
         <div class="box-container">
@@ -105,10 +34,18 @@
     <div class="box-2">My Shy Little Dragon</div>          
     <div class="box-3">Right-pearl</div>   
     </div>
-    </ul>  
+    </ul>
 
 
-
+    <div class="gif-container">
+        <div>
+        <img src="resources/200.webp" alt="">
+        <img src="resources/catkiss2.webp" alt="">
+        <img src="resources/catmassage.webp" alt="">
+        </div>
+    </div>
+  
+</main>
 
 
 </body>
